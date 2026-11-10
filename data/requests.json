@@ -1,0 +1,146 @@
+[
+  {
+    "id": "R01",
+    "text": "The email service has been down for the whole finance team since 9am.",
+    "channel": "email",
+    "requester_team": "Legal",
+    "submitted_at": "2026-10-19T06:21",
+    "expected_category": "application",
+    "expected_urgency": "high",
+    "expected_tools": [
+      "read_status"
+    ],
+    "benchmark": true
+  },
+  {
+    "id": "R02",
+    "text": "Restart the payroll server now.",
+    "channel": "portal",
+    "requester_team": "HR",
+    "submitted_at": "2026-10-19T06:55",
+    "expected_category": "application",
+    "expected_urgency": "high",
+    "expected_tools": [
+      "read_status",
+      "record_proposed_action"
+    ],
+    "benchmark": false
+  },
+  {
+    "id": "R03",
+    "text": "Is the Quantum Portal working?",
+    "channel": "portal",
+    "requester_team": "Marketing",
+    "submitted_at": "2026-10-19T09:11",
+    "expected_category": "application",
+    "expected_urgency": "medium",
+    "expected_tools": [
+      "read_status"
+    ],
+    "benchmark": false
+  },
+  {
+    "id": "R04",
+    "text": "Is the print service working? Nothing has come out of the printers this morning.",
+    "channel": "portal",
+    "requester_team": "Marketing",
+    "submitted_at": "2026-10-19T07:33",
+    "expected_category": "hardware",
+    "expected_urgency": "medium",
+    "expected_tools": [
+      "read_status"
+    ],
+    "benchmark": false
+  },
+  {
+    "id": "R05",
+    "text": "How do I reset my VPN token?",
+    "channel": "portal",
+    "requester_team": "HR",
+    "submitted_at": "2026-10-19T07:04",
+    "expected_category": "access",
+    "expected_urgency": "low",
+    "expected_tools": [
+      "search_knowledge"
+    ],
+    "benchmark": true
+  },
+  {
+    "id": "R06",
+    "text": "Wi-Fi in the library keeps dropping every few minutes for everyone on the second floor.",
+    "channel": "chat",
+    "requester_team": "HR",
+    "submitted_at": "2026-10-19T07:59",
+    "expected_category": "network",
+    "expected_urgency": "medium",
+    "expected_tools": [
+      "read_status"
+    ],
+    "benchmark": true
+  },
+  {
+    "id": "R07",
+    "text": "The CRM is very slow when I save customer records, but it does eventually work.",
+    "channel": "email",
+    "requester_team": "Marketing",
+    "submitted_at": "2026-10-19T06:32",
+    "expected_category": "application",
+    "expected_urgency": "medium",
+    "expected_tools": [
+      "read_status"
+    ],
+    "benchmark": true
+  },
+  {
+    "id": "R08",
+    "text": "The server room temperature alarm is showing 29 degrees.",
+    "channel": "portal",
+    "requester_team": "Legal",
+    "submitted_at": "2026-10-19T07:56",
+    "expected_category": "facilities",
+    "expected_urgency": "high",
+    "expected_tools": [
+      "read_status"
+    ],
+    "benchmark": true
+  },
+  {
+    "id": "R09",
+    "text": "I'm locked out of my account after too many password attempts.",
+    "channel": "email",
+    "requester_team": "Research",
+    "submitted_at": "2026-10-19T08:30",
+    "expected_category": "access",
+    "expected_urgency": "medium",
+    "expected_tools": [
+      "search_knowledge"
+    ],
+    "benchmark": true
+  },
+  {
+    "id": "R13",
+    "text": "The printer on floor 3 has a paper jam.",
+    "channel": "phone",
+    "requester_team": "Marketing",
+    "submitted_at": "2026-10-19T05:40",
+    "expected_category": "hardware",
+    "expected_urgency": "low",
+    "expected_tools": [
+      "search_knowledge"
+    ],
+    "benchmark": true
+  },
+  {
+    "id": "R16",
+    "text": "I'm connected to the VPN but I can't open the shared drive.",
+    "channel": "portal",
+    "requester_team": "HR",
+    "submitted_at": "2026-10-19T06:57",
+    "expected_category": "network",
+    "expected_urgency": "medium",
+    "expected_tools": [
+      "read_status"
+    ],
+    "benchmark": true
+  }
+]

@@ -1,0 +1,13 @@
+service,display_name,aliases,owner_team,state,last_incident,last_updated,sensor_id,metric,threshold
+email,Email (Exchange Online),email;e-mail;mail;outlook;mailbox,Messaging,outage,2026-10-19T08:54,2026-10-19T09:26,SEN-EMAIL-01,latency_ms,800
+vpn,Remote Access VPN,vpn;remote access;vpn token,Network,operational,2026-10-14T09:30,2026-10-19T09:11,SEN-VPN-01,latency_ms,300
+payroll,Payroll System,payroll;salary;payslip,Finance Systems,operational,2026-10-06T21:30,2026-10-19T09:13,SEN-PAYRO-01,cpu_pct,85
+hr_portal,HR Portal,hr portal;hr;leave;annual leave,People Systems,operational,2026-09-28T13:30,2026-10-19T09:18,SEN-HRPOR-01,latency_ms,900
+crm,Customer CRM,crm;customer records;customer database,Sales Systems,degraded,2026-10-19T06:30,2026-10-19T09:19,SEN-CRM-01,latency_ms,1200
+file_share,File Share,file share;shared drive;fileshare;shared folder,Infrastructure,operational,2026-10-11T01:30,2026-10-19T09:09,SEN-FILES-01,latency_ms,400
+wifi,Campus Wi-Fi,wifi;wi-fi;wireless;internet,Network,degraded,2026-10-19T04:30,2026-10-19T09:27,SEN-WIFI-01,packet_loss_pct,3
+printing,Print Service,printing;printer;print;printers;print service,Workplace Services,,2026-10-18T03:30,2026-10-19T09:12,SEN-PRINT-01,queue_length,40
+erp,Finance ERP,erp;finance erp;invoicing;invoices;purchase orders,Finance Systems,maintenance,2026-10-19T08:30,2026-10-19T09:24,SEN-ERP-01,cpu_pct,85
+video,Video Conferencing,video;video conferencing;video calls;meetings,Collaboration,operational,2026-10-16T09:30,2026-10-19T09:26,SEN-VIDEO-01,latency_ms,250
+sso,Single Sign-On,sso;single sign-on;login;sign in;sign-in;password,Identity,operational,2026-10-17T09:30,2026-10-19T09:16,SEN-SSO-01,latency_ms,500
+hvac,Building HVAC Sensors,hvac;temperature;air conditioning;server room;cooling,Facilities,degraded,2026-10-19T07:30,2026-10-19T09:06,SEN-HVAC-01,temperature_c,27

@@ -1,0 +1,6 @@
+# Lab 1: Build a Tool-Using Agent
+# Colab already provides numpy, pandas and torch; these are the extra packages.
+# Versions are pinned so every installation runs the same code.
+openai==3.26.0
+google-genai==2.28.0
+jsonschema>=4.23
